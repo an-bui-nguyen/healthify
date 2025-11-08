@@ -1,0 +1,55 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#root > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-body {
+  flex-grow: 1;
+}
+
+body {
+  height: 100vh;
+  overflow: auto;
+}
+
+.body-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-top {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#topic-info h1 {
+  font-size: 25px;
+}
+
+#topic-info h2 {
+  font-size: 22px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#topic-info h4 {
+  font-size: 17px;
+  font-style: italic;
+}

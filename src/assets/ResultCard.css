@@ -1,0 +1,23 @@
+.collapsible {
+  cursor: pointer;
+}
+
+.result-card {
+  text-align: left;
+}
+
+.card-body {
+  padding: 1.1rem 2.5rem
+}
+
+.result-card div h2, .result-card div h3, .result-card div h4 {
+  font-size: 18px;
+}
+
+.result-card div h1 {
+  font-size: 22px;
+}
+
+.card{
+  margin-bottom: 1rem;
+}
