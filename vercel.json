@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+        { "source": "/api/:path*", "destination": "https://odphp.health.gov/myhealthfinder/api/v4/:path*" }, { "source": "/(.*)", "destination": "/index.html" }
+    ]
+}
